@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Expo/Metro
+.expo/
+.expo-shared/
+.expo-packager-cache/
+.expo/web-build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+build/
+dist/
+web-build/

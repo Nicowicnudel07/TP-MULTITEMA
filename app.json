@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "TP Multimedia Video",
+    "slug": "tp-multimedia-video",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.example.tpmultimedia",
+      "usesCleartextTraffic": true
+    },
+    "ios": {
+      "bundleIdentifier": "com.example.tpmultimedia",
+      "infoPlist": {
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true
+        }
+      }
+    }
+  }
+}
